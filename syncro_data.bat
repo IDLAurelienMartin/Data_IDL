@@ -1,35 +1,28 @@
 @echo off
-chcp 1252 >nul
-echo ==============================================
-echo   SYNCHRONISATION VERS ONEDRIVE - %date% %time%
-echo ==============================================
+REM ===============================================
+REM Script de backup automatique vers GitHub
+REM ===============================================
 
-:: --- 1er dossier ---
-robocopy "\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation" ^
-"C:\Users\aumartin\OneDrive - ID Logistics\Data_app\Mvt_stock" /E /XO
+REM --- Chemins ---
+set SOURCE="C:\Users\aumartin\Google Drive\DossierPartage"
+set DEST="C:\Users\aumartin\Desktop\VSCode\Data_app"
 
-:: --- 2e dossier ---
-robocopy "\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique des Sorties\1 - Compilation" ^
-"C:\Users\aumartin\OneDrive - ID Logistics\Data_app\Historique_des_Sorties" /E /XO
+REM --- Copier les fichiers depuis le Drive ---
+xcopy %SOURCE% %DEST% /s /y /i
+echo Fichiers copiés dans le dépôt local.
 
-:: --- 3e dossier ---
-robocopy "\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation" ^
-"C:\Users\aumartin\OneDrive - ID Logistics\Data_app\Historique_Reception" /E /XO
+REM --- Se déplacer dans le dépôt Git ---
+cd /d %DEST%
 
-:: --- 4e dossier ---
-robocopy "\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\8 - Ecart MMS\2 - Archives" ^
-"C:\Users\aumartin\OneDrive - ID Logistics\Data_app\Ecart_Stock" /E /XO
+REM --- Ajouter les fichiers au suivi Git ---
+git add .
 
-:: --- 5e fichier : Article_euros.xlsx ---
-robocopy "\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser" ^
-"C:\Users\aumartin\OneDrive - ID Logistics\Data_app" "Article_euros.xlsx" /XO
+REM --- Commit avec date et heure ---
+for /f "tokens=1-4 delims=/: " %%a in ("%date% %time%") do set DATETIME=%%a-%%b-%%c_%%d
+git commit -m "Backup automatique %DATETIME%"
 
-:: --- 6e fichier : Inventory_21_09_2025.xlsx ---
-robocopy "\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser" ^
-"C:\Users\aumartin\OneDrive - ID Logistics\Data_app" "Inventory_21_09_2025.xlsx" /XO
+REM --- Push vers GitHub ---
+git push origin main
 
-echo.
-echo ==============================================
-echo   SYNCHRONISATION TERMINEE - %date% %time%
-echo ==============================================
+echo Sauvegarde et push GitHub terminés !
 pause
