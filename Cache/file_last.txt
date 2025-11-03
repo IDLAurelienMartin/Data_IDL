@@ -1,0 +1,1 @@
+C:/Users/aumartin/OneDrive - ID Logistics/Data_app/Cache/ecart_stock_last.parquet
