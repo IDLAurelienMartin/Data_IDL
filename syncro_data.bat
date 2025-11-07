@@ -20,15 +20,16 @@ for /f "tokens=1-4 delims=/: " %%a in ("%date% %time%") do set DATETIME=%%a-%%b-
 REM --- Ajouter les fichiers au suivi Git ---
 git add .
 
-REM --- Commit avec date et heure (ignore si rien à commit) ---
+REM --- Commit si nécessaire ---
 git diff --cached --quiet || git commit -m "Backup automatique %DATETIME%"
 
-REM --- Mettre à jour la branche locale sans conflit ---
+REM --- Forcer la synchro : la version locale écrase la version distante ---
 git fetch origin main
-git merge origin/main --no-edit
-
-REM --- Push vers GitHub ---
-git push origin main
+git reset --soft origin/main
+git checkout --ours .
+git add .
+git commit -m "Résolution automatique des conflits - %DATETIME%"
+git push origin main --force
 
 echo Sauvegarde et push GitHub terminés !
 pause
