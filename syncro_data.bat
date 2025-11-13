@@ -1,34 +1,63 @@
 @echo off
-REM ===============================================
-REM Script de backup automatique vers GitHub
-REM ===============================================
+setlocal enabledelayedexpansion
+REM ============================================================
+REM === BACKUP AUTOMATIQUE + PUSH FORCE SUR GITHUB (UNC) ====
+REM ============================================================
 
 REM --- Chemins ---
-set "SOURCE=C:\Users\aumartin\OneDrive - ID Logistics\Data_app"
-set "DEST=C:\Users\aumartin\Desktop\VSCode\Data_app"
+set UNC_DEST="\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app"
+set BACKUP_DIR="Data_app_backup_remote"
+set FOLDER1="\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation"
+set FOLDER2="\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique des Sorties\1 - Compilation"
+set FOLDER3="\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\8 - Ecart MMS\2 - Archives"
+set FOLDER4="\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation"
 
-REM --- Copier les fichiers depuis le Drive ---
-xcopy "%SOURCE%" "%DEST%" /s /y /i
+REM --- Se placer dans le dossier réseau avec pushd ---
+pushd "%UNC_DEST%" || (
+    echo Erreur : impossible d'accéder à %UNC_DEST%
+    pause
+    exit /b
+)
+
+REM --- Copier les fichiers locaux ---
+xcopy %FOLDER1% "%CD%\Mvt_Stock" /s /y /i >nul
+xcopy %FOLDER2% "%CD%\Historique_des_Sorties" /s /y /i >nul
+xcopy %FOLDER3% "%CD%\Ecart_Stock" /s /y /i >nul
+xcopy %FOLDER4% "%CD%\Historique_Reception" /s /y /i >nul
+
 echo Fichiers copiés dans le dépôt local.
 
-REM --- Se déplacer dans le dépôt Git ---
-cd /d "%DEST%"
+REM --- Vérifier que c’est un dépôt Git ---
+git rev-parse --is-inside-work-tree >nul 2>&1
+if errorlevel 1 (
+    echo Erreur : %CD% n’est pas un dépôt Git valide.
+    popd
+    pause
+    exit /b
+)
 
-REM --- Définir la date et l'heure ---
-for /f "tokens=1-4 delims=/: " %%a in ("%date% %time%") do set DATETIME=%%a-%%b-%%c_%%d
+REM --- Backup du dépôt distant ---
+echo Création du backup du dépôt distant...
+if exist "%CD%\%BACKUP_DIR%" rd /s /q "%CD%\%BACKUP_DIR%"
+git clone --mirror https://github.com/IDLAurelienMartin/Data_IDL "%CD%\%BACKUP_DIR%" >nul 2>&1
+echo Backup distant créé dans %BACKUP_DIR%
 
-REM --- Mettre à jour le dépôt local sans supprimer de fichiers locaux ---
-git fetch origin main
-git merge origin/main --no-edit
+REM --- Ajouter et commit les fichiers locaux ---
+git add -A
+git diff --cached --quiet
+if errorlevel 1 (
+    git commit -m "Backup automatique local"
+)
 
-REM --- Ajouter uniquement les fichiers nouveaux ou non suivis ---
-for /f "delims=" %%f in ('git ls-files --others --exclude-standard') do git add "%%f"
+REM --- Push forcé vers GitHub ---
+echo Push forcé vers GitHub...
+git push origin main --force
 
-REM --- Commit seulement s’il y a des fichiers ajoutés ---
-git diff --cached --quiet || git commit -m "Ajout fichiers manquants %DATETIME%"
+echo ===========================================
+echo Sauvegarde et push forcé terminés !
+echo Backup distant sauvegardé dans %BACKUP_DIR%
+echo ===========================================
 
-REM --- Push vers GitHub ---
-git push origin main
-
-echo Sauvegarde et push GitHub terminés !
+REM --- Revenir au répertoire précédent ---
+popd
 pause
