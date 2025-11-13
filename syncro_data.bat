@@ -1,7 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
+
 REM ============================================================
-REM === BACKUP AUTOMATIQUE + PUSH FORCE SUR GITHUB (UNC) ====
+REM === BACKUP AUTOMATIQUE + PUSH FORCE AVEC DATE MODIFICATION ==
 REM ============================================================
 
 REM --- Chemins ---
@@ -42,7 +43,19 @@ if exist "%CD%\%BACKUP_DIR%" rd /s /q "%CD%\%BACKUP_DIR%"
 git clone --mirror https://github.com/IDLAurelienMartin/Data_IDL "%CD%\%BACKUP_DIR%" >nul 2>&1
 echo Backup distant créé dans %BACKUP_DIR%
 
-REM --- Ajouter et commit les fichiers locaux ---
+REM --- Commit détaillé par fichier avec date de modification ---
+for /f "delims=" %%F in ('git ls-files --others --exclude-standard') do (
+    REM Récupérer date et heure du fichier
+    for /f "tokens=1-3 delims=/ " %%A in ('forfiles /P "%CD%\%%~dpF" /M "%%~nxF" /C "cmd /c echo @fdate @ftime"') do (
+        set FILEDATE=%%C-%%B-%%AT%%D
+        set GIT_AUTHOR_DATE=!FILEDATE!
+        set GIT_COMMITTER_DATE=!FILEDATE!
+        git add "%%F"
+        git commit -m "Ajout de %%F avec date de modification originale" --date "!FILEDATE!"
+    )
+)
+
+REM --- Ajouter et committer tous les fichiers déjà suivis ---
 git add -A
 git diff --cached --quiet
 if errorlevel 1 (
@@ -58,6 +71,6 @@ echo Sauvegarde et push forcé terminés !
 echo Backup distant sauvegardé dans %BACKUP_DIR%
 echo ===========================================
 
-REM --- Revenir au répertoire précédent ---
 popd
 pause
+
