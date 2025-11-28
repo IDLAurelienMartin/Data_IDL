@@ -1,0 +1,18 @@
+================================================== 
+Script démarré le 27/11/2025 à 16:50:02,64 
+================================================== 
+[INFO] Dossier UNC accessible 
+[INFO] Dossier Mvt_Stock créé ou déjà existant 
+[INFO] Dossier Historique_des_Sorties créé ou déjà existant 
+[INFO] Dossier Ecart_Stock créé ou déjà existant 
+[INFO] Dossier Historique_Reception créé ou déjà existant 
+
+[INFO] Copie de \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock terminée 
+
+[INFO] Copie de \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_des_Sorties terminée 
+
+[INFO] Copie de \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception terminée 
+
+[INFO] Copie de \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Ecart_Stock terminée 
+        1 fichier(s) copi�(s).
+[INFO] Copie Etat_Stock.xlsm terminée 
