@@ -3,15 +3,9 @@
    ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
 -------------------------------------------------------------------------------
 
-  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:42:41
-2025/12/15 09:42:41 ERREUR 3 (0x00000003) RÇcupÇration du type de source du systäme de fichiers \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
-Le chemin d'accäs spÇcifiÇ est introuvable.
-
-2025/12/15 09:42:41 ERREUR 3 (0x00000003) RÇcupÇration du type de destination du systäme de fichiers \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\
-Le chemin d'accäs spÇcifiÇ est introuvable.
-
-   Source = \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
-     Dest = \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\
+  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:45:41
+   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
+     Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\
 
     Fichiers : *.*
 	    
@@ -19,5 +13,22 @@ Le chemin d'accäs spÇcifiÇ est introuvable.
 
 -------------------------------------------------------------------------------
 
-2025/12/15 09:42:41 ERREUR 123 (0x0000007B) Accäs au rÇpertoire source \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
-La syntaxe du nom de fichier, de rÇpertoire ou de volume est incorrecte.
+	                   0	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\1 - FÇvrier Ö Juillet\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\2 - Aoñt\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\3 - Septembre\
+	  *Fichier SUPPL.		       0	log_mvt.txt
+	                   8	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\3 - Septembre apräs inventaire\
+	                  24	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\4 - Octobre\
+	                  22	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\5 - Novembre\
+	                  11	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\6 - DÇcembre\
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         5         0         5         0         0         3
+Fichiersˇ:        65         0        65         0         0         1
+  Octetsˇ:    5.42 m         0    5.42 m         0         0         0
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Fin : lundi 15 dÇcembre 2025 09:45:41
+

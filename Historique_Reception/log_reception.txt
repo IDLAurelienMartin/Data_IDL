@@ -3,15 +3,9 @@
    ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
 -------------------------------------------------------------------------------
 
-  D‚marrageÿ: lundi 15 d‚cembre 2025 09:42:41
-2025/12/15 09:42:41 ERREUR 3 (0x00000003) R‚cup‚ration du type de source du systŠme de fichiers \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation\
-Le chemin d'accŠs sp‚cifi‚ est introuvable.
-
-2025/12/15 09:42:42 ERREUR 3 (0x00000003) R‚cup‚ration du type de destination du systŠme de fichiers \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\
-Le chemin d'accŠs sp‚cifi‚ est introuvable.
-
-   Source = \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation\
-     Dest = \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\
+  D‚marrageÿ: lundi 15 d‚cembre 2025 09:45:41
+   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation\
+     Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\
 
     Fichiers : *.*
 	    
@@ -19,5 +13,5 @@ Le chemin d'accŠs sp‚cifi‚ est introuvable.
 
 -------------------------------------------------------------------------------
 
-2025/12/15 09:42:42 ERREUR 123 (0x0000007B) AccŠs au r‚pertoire source \\?\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation\
-La syntaxe du nom de fichier, de r‚pertoire ou de volume est incorrecte.
+2025/12/15 09:45:41 ERREUR 3 (0x00000003) AccŠs au r‚pertoire source \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation\
+Le chemin d'accŠs sp‚cifi‚ est introuvable.
