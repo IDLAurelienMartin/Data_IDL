@@ -1,0 +1,17 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  D‚marrageÿ: lundi 15 d‚cembre 2025 09:51:05
+   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\8 - Ecart MMS\3 - Compilation\
+     Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Ecart_Stock\
+
+    Fichiers : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /R:2 /W:2 
+
+-------------------------------------------------------------------------------
+
+2025/12/15 09:51:05 ERREUR 3 (0x00000003) AccŠs au r‚pertoire source \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\8 - Ecart MMS\3 - Compilation\
+Le chemin d'accŠs sp‚cifi‚ est introuvable.

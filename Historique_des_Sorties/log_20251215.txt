@@ -1,0 +1,44 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:51:03
+   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\
+     Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_des_Sorties\
+
+    Fichiers : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /R:2 /W:2 
+
+-------------------------------------------------------------------------------
+
+	                   0	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\
+	  *Fichier SUPPL.		       0	log_20251215.txt
+	  *Fichier SUPPL.		     992	log_sorties.txt
+	                   4	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\1 - FÇvrier Ö Juillet\
+	                  21	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\2 - Aoñt par jour de livraison\
+	                  24	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\3 - Septembre\
+	                  22	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\4 - Octobre\
+	                  22	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\5 - Novembre\
+	                  10	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\6 - DÇcembre\
+	  Nouveau fichier		   1.0 m	M_DEPOT report_PrÇpa _131225.xlsx 99%  100%  
+	  Nouveau fichier		 1018319	M_DEPOT report_PrÇpa_061225.xlsx100%  
+	  Nouveau fichier		  286763	M_DEPOT report_PrÇpa_081225.xlsx 99%  100%  
+	  Nouveau fichier		   3.9 m	M_DEPOT report_PrÇpa_09&101225.xlsx 99%  100%  
+	  Nouveau fichier		   1.4 m	M_DEPOT report_PrÇpa_111225.xlsx 99%  100%  
+	  Nouveau fichier		  296444	M_DEPOT report_PrÇpa_151225.xlsx100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         7         0         7         0         0         0
+Fichiersˇ:       103         6        97         0         0         2
+  Octetsˇ:  256.69 m    7.99 m  248.70 m         0         0       992
+   Heures:   0:00:01   0:00:01                       0:00:00   0:00:00
+
+
+   DÇbitˇ:           7ˇ577ˇ443 Octets/sec.
+   DÇbitˇ:             433,585 MÇga-octets/min.
+   Fin : lundi 15 dÇcembre 2025 09:51:05
+

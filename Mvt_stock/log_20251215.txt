@@ -1,0 +1,35 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:51:03
+   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
+     Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\
+
+    Fichiers : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /R:2 /W:2 
+
+-------------------------------------------------------------------------------
+
+	                   0	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\1 - FÇvrier Ö Juillet\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\2 - Aoñt\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\3 - Septembre\
+	  *Fichier SUPPL.		       0	log_20251215.txt
+	  *Fichier SUPPL.		    2502	log_mvt.txt
+	                   8	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\3 - Septembre apräs inventaire\
+	                  24	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\4 - Octobre\
+	                  22	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\5 - Novembre\
+	                  11	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\6 - DÇcembre\
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         5         0         5         0         0         3
+Fichiersˇ:        65         0        65         0         0         2
+  Octetsˇ:    5.42 m         0    5.42 m         0         0     2.4 k
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Fin : lundi 15 dÇcembre 2025 09:51:03
+
