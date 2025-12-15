@@ -3,7 +3,7 @@
    ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
 -------------------------------------------------------------------------------
 
-  D‚marrageÿ: lundi 15 d‚cembre 2025 09:56:21
+  D‚marrageÿ: lundi 15 d‚cembre 2025 10:07:07
    Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\
      Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_des_Sorties\
 
@@ -15,7 +15,6 @@
 
 	                   0	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\
 	  *Fichier SUPPL.		       0	log_20251215.txt
-	  *Fichier SUPPL.		     992	log_sorties.txt
 	                   4	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\1 - F‚vrier … Juillet\
 	     Identique		  46.5 m	M_DEPOT report_Pr‚pa_Juillet.xlsx 34.3% 68.7% 99.9%100%  
 	     Identique		  35.3 m	M_DEPOT report_Pr‚pa_Juin.xlsx 45.2% 90.4% 99.9%100%  
@@ -130,12 +129,12 @@
 
                Total     Copi‚    Ignor‚Discordance     CHEC    Extras
      R‚pÿ:         7         0         7         0         0         0
-Fichiersÿ:       103       103         0         0         0         2
-  Octetsÿ:  256.69 m  256.69 m         0         0         0       992
-   Heures:   0:00:29   0:00:27                       0:00:00   0:00:02
+Fichiersÿ:       103       103         0         0         0         1
+  Octetsÿ:  256.69 m  256.69 m         0         0         0         0
+   Heures:   0:00:15   0:00:14                       0:00:00   0:00:01
 
 
-   D‚bitÿ:           9ÿ945ÿ753 Octets/sec.
-   D‚bitÿ:             569,101 M‚ga-octets/min.
-   Fin : lundi 15 d‚cembre 2025 09:56:50
+   D‚bitÿ:           18ÿ891ÿ207 Octets/sec.
+   D‚bitÿ:             1080,964 M‚ga-octets/min.
+   Fin : lundi 15 d‚cembre 2025 10:07:23
 
