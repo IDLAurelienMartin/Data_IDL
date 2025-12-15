@@ -3,7 +3,7 @@
    ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
 -------------------------------------------------------------------------------
 
-  D‚marrageÿ: lundi 15 d‚cembre 2025 10:07:23
+  D‚marrageÿ: lundi 15 d‚cembre 2025 13:42:19
    Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\
      Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\
 
@@ -136,10 +136,10 @@
      R‚pÿ:         7         0         7         0         0         4
 Fichiersÿ:       104       104         0         0         0         1
   Octetsÿ:   44.28 m   44.28 m         0         0         0         0
-   Heures:   0:00:15   0:00:14                       0:00:00   0:00:01
+   Heures:   0:00:14   0:00:13                       0:00:00   0:00:00
 
 
-   D‚bitÿ:           3ÿ186ÿ322 Octets/sec.
-   D‚bitÿ:             182,323 M‚ga-octets/min.
-   Fin : lundi 15 d‚cembre 2025 10:07:39
+   D‚bitÿ:           3ÿ557ÿ034 Octets/sec.
+   D‚bitÿ:             203,535 M‚ga-octets/min.
+   Fin : lundi 15 d‚cembre 2025 13:42:33
 
