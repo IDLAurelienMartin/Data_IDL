@@ -3,15 +3,144 @@
    ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
 -------------------------------------------------------------------------------
 
-  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:51:05
-   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation\
+  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:56:50
+   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\
      Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\
 
     Fichiers : *.*
 	    
-  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /R:2 /W:2 
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:2 /W:2 
 
 -------------------------------------------------------------------------------
 
-2025/12/15 09:51:05 ERREUR 3 (0x00000003) Accäs au rÇpertoire source \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\6 - Historique Reception\1 - Compilation\
-Le chemin d'accäs spÇcifiÇ est introuvable.
+	                   0	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\1 - Septembre\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\2 - Octobre\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\3 - Novembre\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_Reception\4 - DÇcembre\
+	  *Fichier SUPPL.		       0	log_20251215.txt
+	  *Fichier SUPPL.		     986	log_reception.txt
+	Nouveau rÇp.       1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\1 - Fevrier Ö Avril\
+	  Nouveau fichier		   6.4 m	M_DEPOT report_recep_Fev_Mars_Avril.xlsx100%  
+	Nouveau rÇp.      30	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\4 - Mai Ö Aoñt\
+	  Nouveau fichier		  274805	M_DEPOT report_recep_010825.xlsx 99%  100%  
+	  Nouveau fichier		  120503	M_DEPOT report_recep_020825.xlsx 99%  100%  
+	  Nouveau fichier		  263910	M_DEPOT report_recep_030925.xlsx 99%  100%  
+	  Nouveau fichier		  153442	M_DEPOT report_recep_040825.xlsx 99%  100%  
+	  Nouveau fichier		  226392	M_DEPOT report_recep_050825.xlsx 99%  100%  
+	  Nouveau fichier		  274346	M_DEPOT report_recep_06.08.25.xlsx 99%  100%  
+	  Nouveau fichier		  315977	M_DEPOT report_recep_070825.xlsx 99%  100%  
+	  Nouveau fichier		  380704	M_DEPOT report_recep_08&090825.xlsx 99%  100%  
+	  Nouveau fichier		  169215	M_DEPOT report_recep_110825.xlsx 99%  100%  
+	  Nouveau fichier		  208020	M_DEPOT report_recep_120825.xlsx 99%  100%  
+	  Nouveau fichier		  266519	M_DEPOT report_recep_130825.xlsx 99%  100%  
+	  Nouveau fichier		  271447	M_DEPOT report_recep_140825.xlsx 99%  100%  
+	  Nouveau fichier		  131681	M_DEPOT report_recep_150825.xlsx 99%  100%  
+	  Nouveau fichier		    8656	M_DEPOT report_recep_160825.xlsx 97%  100%  
+	  Nouveau fichier		  167464	M_DEPOT report_recep_180825.xlsx 99%  100%  
+	  Nouveau fichier		  537429	M_DEPOT report_recep_19&200825.xlsx 99%  100%  
+	  Nouveau fichier		  559284	M_DEPOT report_recep_21&220825.xlsx 99%  100%  
+	  Nouveau fichier		  120423	M_DEPOT report_recep_230825.xlsx 99%  100%  
+	  Nouveau fichier		   93849	M_DEPOT report_recep_250825.xlsx 99%  100%  
+	  Nouveau fichier		  166743	M_DEPOT report_recep_260825.xlsx 99%  100%  
+	  Nouveau fichier		  222152	M_DEPOT report_recep_270825.xlsx 99%  100%  
+	  Nouveau fichier		  229037	M_DEPOT report_recep_280825.xlsx 99%  100%  
+	  Nouveau fichier		  330729	M_DEPOT report_recep_29&300825.xlsx 99%  100%  
+	  Nouveau fichier		  222363	M_DEPOT report_recep_310725.xlsx 99%  100%  
+	  Nouveau fichier		   3.8 m	M_DEPOT report_recep_Avril.xlsx 99%  100%  
+	  Nouveau fichier		   42187	M_DEPOT report_recep_fevrier.xlsx 96%  100%  
+	  Nouveau fichier		   4.7 m	M_DEPOT report_recep_Juillet.xlsx 99%  100%  
+	  Nouveau fichier		   3.8 m	M_DEPOT report_recep_Juin.xlsx 99%  100%  
+	  Nouveau fichier		   3.7 m	M_DEPOT report_recep_Mai.xlsx 99%  100%  
+	  Nouveau fichier		   2.5 m	M_DEPOT report_recep_Mars.xlsx 99%  100%  
+	Nouveau rÇp.      20	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\5 - Septembre\
+	  Nouveau fichier		  109915	M_DEPOT report_recep_010925.xlsx 99%  100%  
+	  Nouveau fichier		  189288	M_DEPOT report_recep_040925.xlsx 99%  100%  
+	  Nouveau fichier		  333225	M_DEPOT report_recep_05&060925.xlsx 99%  100%  
+	  Nouveau fichier		   10330	M_DEPOT report_recep_080925.xlsx 97%  100%  
+	  Nouveau fichier		  179077	M_DEPOT report_recep_090925.xlsx 99%  100%  
+	  Nouveau fichier		  197745	M_DEPOT report_recep_100925.xlsx 99%  100%  
+	  Nouveau fichier		  398465	M_DEPOT report_recep_11&120925.xlsx 99%  100%  
+	  Nouveau fichier		  127221	M_DEPOT report_recep_130925.xlsx 99%  100%  
+	  Nouveau fichier		  110992	M_DEPOT report_recep_150925.xlsx 99%  100%  
+	  Nouveau fichier		  194667	M_DEPOT report_recep_160925.xlsx 99%  100%  
+	  Nouveau fichier		  193688	M_DEPOT report_recep_170925.xlsx 99%  100%  
+	  Nouveau fichier		  214960	M_DEPOT report_recep_180925.xlsx 99%  100%  
+	  Nouveau fichier		  165131	M_DEPOT report_recep_220925.xlsx 99%  100%  
+	  Nouveau fichier		  239134	M_DEPOT report_recep_230925.xlsx 99%  100%  
+	  Nouveau fichier		  174595	M_DEPOT report_recep_240925.xlsx 99%  100%  
+	  Nouveau fichier		  227397	M_DEPOT report_recep_250925.xlsx 99%  100%  
+	  Nouveau fichier		  207946	M_DEPOT report_recep_260925.xlsx 99%  100%  
+	  Nouveau fichier		  125870	M_DEPOT report_recep_270925.xlsx 99%  100%  
+	  Nouveau fichier		  134247	M_DEPOT report_recep_290925.xlsx 99%  100%  
+	  Nouveau fichier		  207846	M_DEPOT report_recep_300925.xlsx 99%  100%  
+	Nouveau rÇp.      24	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\6 - Octobre\
+	  Nouveau fichier		  189457	M_DEPOT report_Reception_021025.xlsx 99%  100%  
+	  Nouveau fichier		  238729	M_DEPOT report_reception_031025.xlsx 99%  100%  
+	  Nouveau fichier		  131158	M_DEPOT report_reception_041025.xlsx 99%  100%  
+	  Nouveau fichier		   95177	M_DEPOT report_reception_061025.xlsx 99%  100%  
+	  Nouveau fichier		  183071	M_DEPOT report_reception_071025.xlsx 99%  100%  
+	  Nouveau fichier		  193143	M_DEPOT report_reception_081025.xlsx 99%  100%  
+	  Nouveau fichier		  203255	M_DEPOT report_reception_091025.xlsx 99%  100%  
+	  Nouveau fichier		  133292	M_DEPOT report_reception_11&121025.xlsx 99%  100%  
+	  Nouveau fichier		  110744	M_DEPOT report_reception_131025.xlsx 99%  100%  
+	  Nouveau fichier		  182445	M_DEPOT report_reception_141025.xlsx 99%  100%  
+	  Nouveau fichier		  200392	M_DEPOT report_recep_011025.xlsx 99%  100%  
+	  Nouveau fichier		  214558	M_DEPOT report_recep_101025.xlsx 99%  100%  
+	  Nouveau fichier		  185126	M_DEPOT report_recep_151025.xlsx 99%  100%  
+	  Nouveau fichier		  386989	M_DEPOT report_recep_16&171025.xlsx 99%  100%  
+	  Nouveau fichier		  127948	M_DEPOT report_recep_181025.xlsx 99%  100%  
+	  Nouveau fichier		  109017	M_DEPOT report_recep_201025.xlsx 99%  100%  
+	  Nouveau fichier		  186347	M_DEPOT report_recep_211025.xlsx 99%  100%  
+	  Nouveau fichier		  181641	M_DEPOT report_recep_221025.xlsx 99%  100%  
+	  Nouveau fichier		  197340	M_DEPOT report_recep_231025.xlsx 99%  100%  
+	  Nouveau fichier		  291879	M_DEPOT report_recep_24&251025.xlsx 99%  100%  
+	  Nouveau fichier		  105446	M_DEPOT report_recep_271025.xlsx 99%  100%  
+	  Nouveau fichier		  188827	M_DEPOT report_recep_281025.xlsx 99%  100%  
+	  Nouveau fichier		  204080	M_DEPOT report_recep_301025.xlsx 99%  100%  
+	  Nouveau fichier		  213535	M_DEPOT report_recep_311025.xlsx 99%  100%  
+	Nouveau rÇp.      19	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\7 - Novembre\
+	  Nouveau fichier		  199829	M_DEPOT report_reception_031125.xlsx 99%  100%  
+	  Nouveau fichier		  151261	M_DEPOT report_recep_041125.xlsx 99%  100%  
+	  Nouveau fichier		  214445	M_DEPOT report_recep_051125.xlsx 99%  100%  
+	  Nouveau fichier		  200171	M_DEPOT report_recep_061125.xlsx 99%  100%  
+	  Nouveau fichier		  326820	M_DEPOT report_recep_07&081125.xlsx 99%  100%  
+	  Nouveau fichier		   81978	M_DEPOT report_recep_101125.xlsx 99%  100%  
+	  Nouveau fichier		  125447	M_DEPOT report_recep_111125.xlsx 99%  100%  
+	  Nouveau fichier		  131496	M_DEPOT report_recep_121125.xlsx 99%  100%  
+	  Nouveau fichier		  202781	M_DEPOT report_recep_131125.xlsx 99%  100%  
+	  Nouveau fichier		  233498	M_DEPOT report_recep_141125.xlsx 99%  100%  
+	  Nouveau fichier		  133164	M_DEPOT report_recep_151125.xlsx 99%  100%  
+	  Nouveau fichier		   93800	M_DEPOT report_recep_171125.xlsx 99%  100%  
+	  Nouveau fichier		  207868	M_DEPOT report_recep_191125.xlsx 99%  100%  
+	  Nouveau fichier		  228317	M_DEPOT report_recep_201125.xlsx 99%  100%  
+	  Nouveau fichier		  346717	M_DEPOT report_recep_21&221125.xlsx 99%  100%  
+	  Nouveau fichier		  413748	M_DEPOT report_recep_241125.xlsx 99%  100%  
+	  Nouveau fichier		  182375	M_DEPOT report_recep_251125.xlsx 99%  100%  
+	  Nouveau fichier		  193057	M_DEPOT report_recep_261125.xlsx 99%  100%  
+	  Nouveau fichier		  369886	M_DEPOT report_recep_27&281125.xlsx 99%  100%  
+	Nouveau rÇp.      10	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\5 - Historique Reception\1 - Compilation\8 - DÇcembre\
+	  Nouveau fichier		  114872	M_DEPOT report_recep_011225.xlsx 99%  100%  
+	  Nouveau fichier		  212770	M_DEPOT report_recep_021225.xlsx 99%  100%  
+	  Nouveau fichier		  214432	M_DEPOT report_recep_031225.xlsx 99%  100%  
+	  Nouveau fichier		  212419	M_DEPOT report_recep_041225.xlsx 99%  100%  
+	  Nouveau fichier		  222195	M_DEPOT report_recep_051225.xlsx100%  
+	  Nouveau fichier		  123179	M_DEPOT report_recep_061225.xlsx 99%  100%  
+	  Nouveau fichier		  279282	M_DEPOT report_recep_08&091225.xlsx 99%  100%  
+	  Nouveau fichier		  198061	M_DEPOT report_recep_101225.xlsx 99%  100%  
+	  Nouveau fichier		  236401	M_DEPOT report_recep_121225.xlsx 99%  100%  
+	  Nouveau fichier		  138840	M_DEPOT report_recep_131225.xlsx100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         7         6         1         0         0         4
+Fichiersˇ:       104       104         0         0         0         2
+  Octetsˇ:   44.28 m   44.28 m         0         0         0       986
+   Heures:   0:00:25   0:00:23                       0:00:00   0:00:01
+
+
+   DÇbitˇ:           1ˇ956ˇ054 Octets/sec.
+   DÇbitˇ:             111,926 MÇga-octets/min.
+   Fin : lundi 15 dÇcembre 2025 09:57:16
+

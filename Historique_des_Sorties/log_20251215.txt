@@ -3,13 +3,13 @@
    ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
 -------------------------------------------------------------------------------
 
-  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:51:03
+  DÇmarrageˇ: lundi 15 dÇcembre 2025 09:56:21
    Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\
      Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Historique_des_Sorties\
 
     Fichiers : *.*
 	    
-  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /R:2 /W:2 
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:2 /W:2 
 
 -------------------------------------------------------------------------------
 
@@ -17,28 +17,125 @@
 	  *Fichier SUPPL.		       0	log_20251215.txt
 	  *Fichier SUPPL.		     992	log_sorties.txt
 	                   4	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\1 - FÇvrier Ö Juillet\
+	     Identique		  46.5 m	M_DEPOT report_PrÇpa_Juillet.xlsx 34.3% 68.7% 99.9%100%  
+	     Identique		  35.3 m	M_DEPOT report_PrÇpa_Juin.xlsx 45.2% 90.4% 99.9%100%  
+	     Identique		  21.9 m	M_DEPOT report_PrÇpa_Mai.xlsx 73.0% 99.9%100%  
+	     Identique		   1.1 m	M_DEPOT report_PrÇpa_Mars_Avril.xlsx 99%  100%  
 	                  21	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\2 - Aoñt par jour de livraison\
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_010825.xlsx 99%  100%  
+	     Identique		   1.1 m	M_DEPOT report_PrÇpa_020825.xlsx 99%  100%  
+	     Identique		  406065	M_DEPOT report_PrÇpa_040825.xlsx 99%  100%  
+	     Identique		   1.9 m	M_DEPOT report_PrÇpa_050825.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_060825.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_070825.xlsx 99%  100%  
+	     Identique		   1.6 m	M_DEPOT report_PrÇpa_080825.xlsx 99%  100%  
+	     Identique		   2.0 m	M_DEPOT report_PrÇpa_09&110825.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_120825.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_130825.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_140825.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_150825.xlsx 99%  100%  
+	     Identique		   1.3 m	M_DEPOT report_PrÇpa_160825.xlsx 99%  100%  
+	     Identique		  412368	M_DEPOT report_PrÇpa_180825.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_190825.xlsx 99%  100%  
+	     Identique		   7.4 m	M_DEPOT report_PrÇpa_20_21_22_230825.xlsx 99.9%100%  
+	     Identique		  503868	M_DEPOT report_PrÇpa_250825.xlsx 99%  100%  
+	     Identique		   2.0 m	M_DEPOT report_PrÇpa_260825.xlsx 99%  100%  
+	     Identique		   2.2 m	M_DEPOT report_PrÇpa_270825.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_280825.xlsx 99%  100%  
+	     Identique		   1.9 m	M_DEPOT report_PrÇpa_290825.xlsx 99%  100%  
 	                  24	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\3 - Septembre\
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa _240925.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_010925.xlsx 99%  100%  
+	     Identique		   2.3 m	M_DEPOT report_PrÇpa_020925.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_030925.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_040925.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_050925.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_06&080925.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_090925.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_100925.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_110925.xlsx 99%  100%  
+	     Identique		   2.9 m	M_DEPOT report_PrÇpa_12&130925.xlsx 99%  100%  
+	     Identique		  343397	M_DEPOT report_PrÇpa_150925.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_160925.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_170925.xlsx 99%  100%  
+	     Identique		   1.6 m	M_DEPOT report_PrÇpa_180925.xlsx 99%  100%  
+	     Identique		   1.7 m	M_DEPOT report_PrÇpa_190925.xlsx 99%  100%  
+	     Identique		   1.9 m	M_DEPOT report_PrÇpa_230925.xlsx 99%  100%  
+	     Identique		   1.6 m	M_DEPOT report_PrÇpa_250925.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_260925.xlsx 99%  100%  
+	     Identique		   1.0 m	M_DEPOT report_PrÇpa_270925.xlsx 99%  100%  
+	     Identique		  301223	M_DEPOT report_PrÇpa_290925.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_3008&010925.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_300925.xlsx 99%  100%  
+	     Identique		    6543	PROD ET TEMPS DE CO.xlsx100%  
 	                  22	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\4 - Octobre\
+	     Identique		   1.6 m	M_DEPOT report_PrÇpa_011025.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_021025.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_031025.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_061025.xlsx 99%  100%  
+	     Identique		   1.9 m	M_DEPOT report_PrÇpa_071025.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_081025.xlsx 99%  100%  
+	     Identique		   1.6 m	M_DEPOT report_PrÇpa_091025.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_101025.xlsx 99%  100%  
+	     Identique		   1.0 m	M_DEPOT report_PrÇpa_111025.xlsx 99%  100%  
+	     Identique		  249556	M_DEPOT report_PrÇpa_131025.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_141025.xlsx 99%  100%  
+	     Identique		   2.4 m	M_DEPOT report_PrÇpa_151025.xlsx 99%  100%  
+	     Identique		   1.6 m	M_DEPOT report_PrÇpa_161025.xlsx 99%  100%  
+	     Identique		   2.6 m	M_DEPOT report_PrÇpa_17&181025.xlsx 99%  100%  
+	     Identique		  355170	M_DEPOT report_PrÇpa_201025.xlsx 99%  100%  
+	     Identique		   1.8 m	M_DEPOT report_PrÇpa_211025.xlsx 99%  100%  
+	     Identique		   1.6 m	M_DEPOT report_PrÇpa_221025.xlsx 99%  100%  
+	     Identique		   1.4 m	M_DEPOT report_PrÇpa_231025.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_25&271025.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_281025.xlsx 99%  100%  
+	     Identique		   1.3 m	M_DEPOT report_PrÇpa_291025.xlsx 99%  100%  
+	     Identique		   1.4 m	M_DEPOT report_PrÇpa_311025.xlsx 99%  100%  
 	                  22	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\5 - Novembre\
+	     Identique		   1.0 m	M_DEPOT report_PrÇpa_011125.xlsx 99%  100%  
+	     Identique		  282614	M_DEPOT report_PrÇpa_031125.xlsx 99%  100%  
+	     Identique		  282574	M_DEPOT report_PrÇpa_041125.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_051125.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_061125.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_071125.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_08&101125.xlsx 99%  100%  
+	     Identique		   1.3 m	M_DEPOT report_PrÇpa_111025 (1).xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_121125.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_131125.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_141125.xlsx 99%  100%  
+	     Identique		   1.0 m	M_DEPOT report_PrÇpa_151125.xlsx 99%  100%  
+	     Identique		  286882	M_DEPOT report_PrÇpa_171125.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_181125.xlsx 99%  100%  
+	     Identique		   1.4 m	M_DEPOT report_PrÇpa_191125.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_201125.xlsx 99%  100%  
+	     Identique		   1.3 m	M_DEPOT report_PrÇpa_211125.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_22&241125.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_251125.xlsx 99%  100%  
+	     Identique		   1.1 m	M_DEPOT report_PrÇpa_261126.xlsx 99%  100%  
+	     Identique		   1.3 m	M_DEPOT report_PrÇpa_271125.xlsx 99%  100%  
+	     Identique		   2.3 m	M_DEPOT report_PrÇpa_28&291125.xlsx 99%  100%  
 	                  10	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\4 - Historique des Sorties\1 - Compilation\6 - DÇcembre\
-	  Nouveau fichier		   1.0 m	M_DEPOT report_PrÇpa _131225.xlsx 99%  100%  
-	  Nouveau fichier		 1018319	M_DEPOT report_PrÇpa_061225.xlsx100%  
-	  Nouveau fichier		  286763	M_DEPOT report_PrÇpa_081225.xlsx 99%  100%  
-	  Nouveau fichier		   3.9 m	M_DEPOT report_PrÇpa_09&101225.xlsx 99%  100%  
-	  Nouveau fichier		   1.4 m	M_DEPOT report_PrÇpa_111225.xlsx 99%  100%  
-	  Nouveau fichier		  296444	M_DEPOT report_PrÇpa_151225.xlsx100%  
+	     Identique		   1.0 m	M_DEPOT report_PrÇpa _131225.xlsx 99%  100%  
+	     Identique		   1.5 m	M_DEPOT report_PrÇpa_021225.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_031225.xlsx 99%  100%  
+	     Identique		   1.2 m	M_DEPOT report_PrÇpa_041225.xlsx 99%  100%  
+	     Identique		   1.3 m	M_DEPOT report_PrÇpa_051225.xlsx 99%  100%  
+	     Identique		 1018319	M_DEPOT report_PrÇpa_061225.xlsx100%  
+	     Identique		  286763	M_DEPOT report_PrÇpa_081225.xlsx 99%  100%  
+	     Identique		   3.9 m	M_DEPOT report_PrÇpa_09&101225.xlsx 99%  100%  
+	     Identique		   1.4 m	M_DEPOT report_PrÇpa_111225.xlsx 99%  100%  
+	     Identique		  296444	M_DEPOT report_PrÇpa_151225.xlsx100%  
 
 -------------------------------------------------------------------------------
 
                Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
      RÇpˇ:         7         0         7         0         0         0
-Fichiersˇ:       103         6        97         0         0         2
-  Octetsˇ:  256.69 m    7.99 m  248.70 m         0         0       992
-   Heures:   0:00:01   0:00:01                       0:00:00   0:00:00
+Fichiersˇ:       103       103         0         0         0         2
+  Octetsˇ:  256.69 m  256.69 m         0         0         0       992
+   Heures:   0:00:29   0:00:27                       0:00:00   0:00:02
 
 
-   DÇbitˇ:           7ˇ577ˇ443 Octets/sec.
-   DÇbitˇ:             433,585 MÇga-octets/min.
-   Fin : lundi 15 dÇcembre 2025 09:51:05
+   DÇbitˇ:           9ˇ945ˇ753 Octets/sec.
+   DÇbitˇ:             569,101 MÇga-octets/min.
+   Fin : lundi 15 dÇcembre 2025 09:56:50
 
