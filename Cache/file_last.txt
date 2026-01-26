@@ -1,0 +1,1 @@
+https://github.com/IDLAurelienMartin/Data_IDL/blob/main/Cache/ecart_stock_last.parquet

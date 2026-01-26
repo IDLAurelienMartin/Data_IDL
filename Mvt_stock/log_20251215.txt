@@ -1,0 +1,103 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇmarrageˇ: lundi 15 dÇcembre 2025 13:41:57
+   Source : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
+     Dest : \\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\
+
+    Fichiers : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:2 /W:2 
+
+-------------------------------------------------------------------------------
+
+	                   0	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\1 - FÇvrier Ö Juillet\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\2 - Aoñt\
+	*RÇp. SUPPL.      -1	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\Data_app\Mvt_Stock\3 - Septembre\
+	  *Fichier SUPPL.		       0	log_20251215.txt
+	                   8	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\3 - Septembre apräs inventaire\
+	     Identique		   68320	M_DEPOT report_Mvt stock_220925.xlsx 99%  100%  
+	     Identique		   86421	M_DEPOT report_Mvt stock_230925.xlsx 99%  100%  
+	     Identique		  114773	M_DEPOT report_Mvt stock_240925.xlsx 99%  100%  
+	     Identique		  101951	M_DEPOT report_Mvt stock_250925 (1).xlsx 99%  100%  
+	     Identique		   68172	M_DEPOT report_Mvt stock_260925.xlsx 99%  100%  
+	     Identique		   65106	M_DEPOT report_Mvt stock_270925.xlsx 99%  100%  
+	     Identique		   66890	M_DEPOT report_Mvt stock_290925.xlsx 99%  100%  
+	     Identique		  227301	M_DEPOT report_Mvt stock_300925.xlsx 99%  100%  
+	                  24	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\4 - Octobre\
+	     Identique		   89899	M_DEPOT report_Mvt stock_011025.xlsx 99%  100%  
+	     Identique		   95729	M_DEPOT report_Mvt stock_021025.xlsx 99%  100%  
+	     Identique		   69482	M_DEPOT report_Mvt stock_031025.xlsx 99%  100%  
+	     Identique		   78424	M_DEPOT report_Mvt stock_101025.xlsx 99%  100%  
+	     Identique		   63866	M_DEPOT report_Mvt stock_11&121025.xlsx 99%  100%  
+	     Identique		   59711	M_DEPOT report_Mvt stock_131025.xlsx 99%  100%  
+	     Identique		   78418	M_DEPOT report_Mvt stock_151025.xlsx 99%  100%  
+	     Identique		  151459	M_DEPOT report_Mvt stock_16&171025.xlsx 99%  100%  
+	     Identique		   48982	M_DEPOT report_Mvt stock_1810125.xlsx 99%  100%  
+	     Identique		   75948	M_DEPOT report_Mvt stock_201025.xlsx 99%  100%  
+	     Identique		   99714	M_DEPOT report_Mvt stock_211025.xlsx 99%  100%  
+	     Identique		   74339	M_DEPOT report_Mvt stock_221025.xlsx 99%  100%  
+	     Identique		   82749	M_DEPOT report_Mvt stock_231025.xlsx 99%  100%  
+	     Identique		  146430	M_DEPOT report_Mvt stock_24&251025.xlsx 99%  100%  
+	     Identique		   66031	M_DEPOT report_Mvt stock_271025.xlsx 99%  100%  
+	     Identique		   81763	M_DEPOT report_Mvt stock_281025.xlsx 99%  100%  
+	     Identique		   70253	M_DEPOT report_Mvt stock_301025.xlsx 99%  100%  
+	     Identique		   87674	M_DEPOT report_Mvt stock_311025.xlsx 99%  100%  
+	     Identique		   92863	M_DEPOT report_Mvt_031025.xlsx 99%  100%  
+	     Identique		   72737	M_DEPOT report_Mvt_061025.xlsx 99%  100%  
+	     Identique		   72873	M_DEPOT report_Mvt_081025.xlsx 99%  100%  
+	     Identique		   76115	M_DEPOT report_Mvt_091025.xlsx 99%  100%  
+	     Identique		  105845	M_DEPOT report_Mvt_141025.xlsx 99%  100%  
+	     Identique		   85895	M_DEPOT report_Mvt_stock_071025.xlsx 99%  100%  
+	                  22	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\5 - Novembre\
+	     Identique		   57615	M_DEPOT report_Mvt stock_011125.xlsx100%  
+	     Identique		   88459	M_DEPOT report_Mvt stock_031125.xlsx 99%  100%  
+	     Identique		   84319	M_DEPOT report_Mvt stock_041125.xlsx 99%  100%  
+	     Identique		   70730	M_DEPOT report_Mvt stock_051125.xlsx 99%  100%  
+	     Identique		   89945	M_DEPOT report_Mvt stock_061125.xlsx 99%  100%  
+	     Identique		  127756	M_DEPOT report_Mvt stock_07&081125.xlsx 99%  100%  
+	     Identique		   68122	M_DEPOT report_Mvt stock_101125.xlsx 99%  100%  
+	     Identique		   80709	M_DEPOT report_Mvt stock_111125.xlsx 99%  100%  
+	     Identique		   76626	M_DEPOT report_Mvt stock_121125.xlsx 99%  100%  
+	     Identique		   90298	M_DEPOT report_Mvt stock_131125.xlsx 99%  100%  
+	     Identique		  100133	M_DEPOT report_Mvt stock_141125.xlsx 99%  100%  
+	     Identique		   57807	M_DEPOT report_Mvt stock_151125.xlsx 99%  100%  
+	     Identique		   91241	M_DEPOT report_Mvt stock_171125.xlsx 99%  100%  
+	     Identique		  108300	M_DEPOT report_Mvt stock_181125.xlsx 99%  100%  
+	     Identique		   87513	M_DEPOT report_Mvt stock_191125.xlsx 99%  100%  
+	     Identique		   89351	M_DEPOT report_Mvt stock_201125 (1).xlsx 99%  100%  
+	     Identique		  138467	M_DEPOT report_Mvt stock_21&221125.xlsx 99%  100%  
+	     Identique		   66847	M_DEPOT report_Mvt stock_241125.xlsx 99%  100%  
+	     Identique		   96950	M_DEPOT report_Mvt stock_251126.xlsx 99%  100%  
+	     Identique		   68958	M_DEPOT report_Mvt stock_261125.xlsx 99%  100%  
+	     Identique		  169545	M_DEPOT report_Mvt stock_27&281125.xlsx 99%  100%  
+	     Identique		   70470	M_DEPOT report_Mvt stock_291125.xlsx 99%  100%  
+	                  11	\\spwfs-metbre\Partage\07_Gestion_Des_Stocks\02 - Fichiers Synchro\1 - Fichiers a Actualiser\2 - Mvt Stock\1 - Compilation\6 - DÇcembre\
+	     Identique		   63523	M_DEPOT report_Mvt stock_011225.xlsx 99%  100%  
+	     Identique		   90393	M_DEPOT report_Mvt stock_021225.xlsx 99%  100%  
+	     Identique		   69561	M_DEPOT report_Mvt stock_031225.xlsx 99%  100%  
+	     Identique		   82877	M_DEPOT report_Mvt stock_041225.xlsx 99%  100%  
+	     Identique		   65198	M_DEPOT report_Mvt stock_051225.xlsx100%  
+	     Identique		   51740	M_DEPOT report_Mvt stock_061225.xlsx 99%  100%  
+	     Identique		  146258	M_DEPOT report_Mvt stock_08&091225.xlsx 99%  100%  
+	     Identique		   76459	M_DEPOT report_Mvt stock_101225.xlsx 99%  100%  
+	     Identique		   79248	M_DEPOT report_Mvt stock_111225.xlsx100%  
+	     Identique		   79562	M_DEPOT report_Mvt stock_121225.xlsx 99%  100%  
+	     Identique		   80267	M_DEPOT report_Mvt stock_131225.xlsx100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         5         0         5         0         0         3
+Fichiersˇ:        65        65         0         0         0         1
+  Octetsˇ:    5.42 m    5.42 m         0         0         0         0
+   Heures:   0:00:08   0:00:07                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             759ˇ356 Octets/sec.
+   DÇbitˇ:              43,451 MÇga-octets/min.
+   Fin : lundi 15 dÇcembre 2025 13:42:05
+
